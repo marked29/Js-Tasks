@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Second task</title>
+	<style>
+
+		#submit {
+			visibility: hidden;
+		}
+
+	</style>
+</head>
+<body onload="handleInput()">
+	<center>
+		<div id="main">
+			<input id="textArea"  onkeyup="checkTextAreaField()" onchange="checkTextAreaField()" type="number" required>
+				<button id="submit" onclick="pushDataToLocalStorage()">Submit</button>
+				<button id="clear" onclick="clearDataFromLocalStorage()">Clear</button>
+		</div>
+	</center>		
+	<script src="main.js"></script>
+</body>
+</html>

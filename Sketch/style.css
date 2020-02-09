@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-top: 3px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.card {
+	margin: 10px;
+	padding: 0px 20px;
+	display: inline-block;
+	text-align: center;
+	border: lightgray 1px solid;
+}
+
+.header {
+	padding: 10px;
+}
+
+.mock {
+	display: inline-block;
+	width: 200px;
+	height: 180px;
+	background-color: pink;
+}
+
+.description {
+	width: 200px;
+	display: inline-block;
+}
+.details {
+	text-align: left;
+}
+
+.price {
+	margin: 10px;
+}
